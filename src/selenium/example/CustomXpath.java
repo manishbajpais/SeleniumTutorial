@@ -12,7 +12,7 @@ public class CustomXpath {
 
 	public static void main(String[] args) {
 
-System.setProperty("webdriver.chrome.driver", "/Users/manish/Documents/geckodriver");	
+		System.setProperty("webdriver.gecko.driver", "/Users/manish/Documents/geckodriver");	
 		
 		WebDriver driver = new ChromeDriver(); //launch chrome
 		
