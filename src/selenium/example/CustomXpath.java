@@ -7,6 +7,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class CustomXpath {
 
@@ -14,7 +15,7 @@ public class CustomXpath {
 
 		System.setProperty("webdriver.gecko.driver", "/Users/manish/Documents/geckodriver");	
 		
-		WebDriver driver = new ChromeDriver(); //launch chrome
+		WebDriver driver = new FirefoxDriver(); //launch firefox
 		
 		driver.manage().window().maximize(); //maximize window
 		driver.manage().deleteAllCookies(); //delete all the cookies
